@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDD010361B54A9C60012C6A6 /* MafiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD010351B54A9C60012C6A6 /* MafiaViewController.m */; };
+		BDD010391B54A9CF0012C6A6 /* SherrifViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD010381B54A9CF0012C6A6 /* SherrifViewController.m */; };
+		BDD0103C1B54B2450012C6A6 /* Mafia.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD0103B1B54B2450012C6A6 /* Mafia.m */; };
+		BDD010421B54B6BA0012C6A6 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD010411B54B6BA0012C6A6 /* GameViewController.m */; };
 		BDDDF9151B549A60007DDB18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDDF9141B549A60007DDB18 /* main.m */; };
 		BDDDF9181B549A60007DDB18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDDF9171B549A60007DDB18 /* AppDelegate.m */; };
 		BDDDF91B1B549A60007DDB18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDDF91A1B549A60007DDB18 /* ViewController.m */; };
@@ -27,6 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BDD010341B54A9C60012C6A6 /* MafiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MafiaViewController.h; sourceTree = "<group>"; };
+		BDD010351B54A9C60012C6A6 /* MafiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MafiaViewController.m; sourceTree = "<group>"; };
+		BDD010371B54A9CF0012C6A6 /* SherrifViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SherrifViewController.h; sourceTree = "<group>"; };
+		BDD010381B54A9CF0012C6A6 /* SherrifViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SherrifViewController.m; sourceTree = "<group>"; };
+		BDD0103A1B54B2450012C6A6 /* Mafia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mafia.h; sourceTree = "<group>"; };
+		BDD0103B1B54B2450012C6A6 /* Mafia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mafia.m; sourceTree = "<group>"; };
+		BDD010401B54B6BA0012C6A6 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		BDD010411B54B6BA0012C6A6 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		BDDDF90F1B549A60007DDB18 /* Mafia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mafia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDDF9131B549A60007DDB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDDDF9141B549A60007DDB18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,7 +97,15 @@
 				BDDDF9171B549A60007DDB18 /* AppDelegate.m */,
 				BDDDF9191B549A60007DDB18 /* ViewController.h */,
 				BDDDF91A1B549A60007DDB18 /* ViewController.m */,
+				BDD0103A1B54B2450012C6A6 /* Mafia.h */,
+				BDD0103B1B54B2450012C6A6 /* Mafia.m */,
+				BDD010371B54A9CF0012C6A6 /* SherrifViewController.h */,
+				BDD010381B54A9CF0012C6A6 /* SherrifViewController.m */,
 				BDDDF91C1B549A60007DDB18 /* Main.storyboard */,
+				BDD010401B54B6BA0012C6A6 /* GameViewController.h */,
+				BDD010411B54B6BA0012C6A6 /* GameViewController.m */,
+				BDD010341B54A9C60012C6A6 /* MafiaViewController.h */,
+				BDD010351B54A9C60012C6A6 /* MafiaViewController.m */,
 				BDDDF91F1B549A60007DDB18 /* Images.xcassets */,
 				BDDDF9211B549A60007DDB18 /* LaunchScreen.xib */,
 				BDDDF9121B549A60007DDB18 /* Supporting Files */,
@@ -219,9 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD0103C1B54B2450012C6A6 /* Mafia.m in Sources */,
 				BDDDF91B1B549A60007DDB18 /* ViewController.m in Sources */,
+				BDD010421B54B6BA0012C6A6 /* GameViewController.m in Sources */,
+				BDD010361B54A9C60012C6A6 /* MafiaViewController.m in Sources */,
 				BDDDF9181B549A60007DDB18 /* AppDelegate.m in Sources */,
 				BDDDF9151B549A60007DDB18 /* main.m in Sources */,
+				BDD010391B54A9CF0012C6A6 /* SherrifViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +442,7 @@
 				BDDDF9341B549A61007DDB18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDDDF9351B549A61007DDB18 /* Build configuration list for PBXNativeTarget "MafiaTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +451,7 @@
 				BDDDF9371B549A61007DDB18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
